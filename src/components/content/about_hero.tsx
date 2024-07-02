@@ -50,7 +50,7 @@ const HeroContent = () => {
                   className="w-full h-full justify-center items-center flex md:hidden my-3"
                 >
                   <Image
-                    src="/avt_1.jpg"
+                    src="/banner1.jpg"
                     alt="work icons"
                     height={450}
                     width={450}
@@ -75,7 +75,7 @@ const HeroContent = () => {
             </motion.div>
           </div>
           <div className="bg-white dark:bg-gray-900 p-8 md:p-12 hidden md:col-span-1 md:flex">
-            <motion.div
+            {/* <motion.div
               initial="hidden"
               animate="visible"
               className="flex flex-row items-center justify-center w-full z-[20]"
@@ -83,7 +83,7 @@ const HeroContent = () => {
               <div className="h-full w-full flex flex-col justify-center m-auto text-start">
                 <div className="flex flex-row justify-start flex-wrap">
                   <motion.div
-                    variants={slideInFromRight(1.2)}
+                    variants={slideInFromLeft(1.2)}
                     className="w-full h-full flex justify-center items-center"
                   >
                     <Image
@@ -96,7 +96,7 @@ const HeroContent = () => {
                   </motion.div>
                 </div>
               </div>
-            </motion.div>
+            </motion.div> */}
           </div>
         </div>
       </div>

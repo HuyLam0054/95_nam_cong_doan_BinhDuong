@@ -40,7 +40,7 @@ export function Info(props: InfoProps) {
               className="w-full h-full justify-center items-center flex mt-3 md:mt-0 rounded-full"
             >
               <Image
-                src="/avt_1.jpg"
+                src="/banner1.jpg"
                 alt="work icons"
                 height={450}
                 width={450}
