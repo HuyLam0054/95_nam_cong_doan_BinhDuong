@@ -70,7 +70,9 @@ export default function Navigation() {
           </div>
         </div>
 
-        <div className="flex flex-row gap-5">{/* <Clock /> */}</div>
+        <div className="flex flex-row gap-5">
+          <Clock />
+        </div>
       </div>
     </div>
   );
