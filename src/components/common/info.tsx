@@ -36,7 +36,7 @@ export function Info(props: InfoProps) {
           {/* avt img */}
           <div className="grid md:grid-cols-2 gap-8">
             <motion.div
-              variants={slideInFromTop(0.8)}
+              variants={slideInFromLeft(1.5)}
               className="w-full h-full justify-center items-center flex mt-3 md:mt-0 rounded-full"
             >
               <Image
