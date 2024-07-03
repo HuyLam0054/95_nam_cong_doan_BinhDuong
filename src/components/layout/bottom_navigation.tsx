@@ -40,7 +40,7 @@ export default function BottomNavigation() {
 
         <button
           type="button"
-          onClick={() => router.push("/skills")}
+          onClick={() => router.push("/history")}
           className={`inline-flex flex-col items-center justify-center px-5
           hover:bg-gray-50 dark:hover:bg-gray-800 group ${
             pathName == "/history" ? "bg-gray-50 dark:bg-gray-800" : ""
@@ -81,7 +81,7 @@ export default function BottomNavigation() {
                 : "text-gray-500"
             }`}
           />
-          <span className="sr-only">Projects</span>
+          <span className="sr-only">activitives</span>
         </button>
 
         <button
