@@ -43,17 +43,17 @@ export default function BottomNavigation() {
           onClick={() => router.push("/skills")}
           className={`inline-flex flex-col items-center justify-center px-5
           hover:bg-gray-50 dark:hover:bg-gray-800 group ${
-            pathName == "/skills" ? "bg-gray-50 dark:bg-gray-800" : ""
+            pathName == "/history" ? "bg-gray-50 dark:bg-gray-800" : ""
           }`}
         >
           <FaProjectDiagram
             className={`w-6 h-6 mb-1 group-hover:text-blue-600 dark:group-hover:text-blue-500 ${
-              pathName == "/skills"
+              pathName == "/history"
                 ? "text-blue-600 dark:text-blue-500"
                 : "text-gray-500"
             }`}
           />
-          <span className="sr-only">Skills</span>
+          <span className="sr-only">history</span>
         </button>
 
         <div className="flex items-center justify-center">
@@ -62,21 +62,21 @@ export default function BottomNavigation() {
             className="inline-flex items-center justify-center w-10 h-10 font-medium bg-blue-600 rounded-full hover:bg-blue-700 group focus:ring-4 focus:ring-blue-300 focus:outline-none dark:focus:ring-blue-800"
           >
             <FaFilePdf className="w-4 h-4 text-white" />
-            <span className="sr-only">MyCV</span>
+            <span className="sr-only">Infographic</span>
           </button>
         </div>
 
         <button
           type="button"
-          onClick={() => router.push("/projects")}
+          onClick={() => router.push("/activitives")}
           className={`inline-flex flex-col items-center justify-center px-5
           hover:bg-gray-50 dark:hover:bg-gray-800 group ${
-            pathName == "/projects" ? "bg-gray-50 dark:bg-gray-800" : ""
+            pathName == "/activitives" ? "bg-gray-50 dark:bg-gray-800" : ""
           }`}
         >
           <FaClipboardList
             className={`w-6 h-6 mb-1 group-hover:text-blue-600 dark:group-hover:text-blue-500 ${
-              pathName == "/projects"
+              pathName == "/activitives"
                 ? "text-blue-600 dark:text-blue-500"
                 : "text-gray-500"
             }`}
