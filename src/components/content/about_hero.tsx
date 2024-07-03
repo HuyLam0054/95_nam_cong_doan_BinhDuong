@@ -15,8 +15,8 @@ const HeroContent = () => {
   return (
     <section className="bg-white dark:bg-gray-900 pt-14">
       <div className="py-8 px-4 mx-auto max-w-screen-xl">
-        <div className="grid w-full md:grid-cols-3 gap-1">
-          <div className="bg-white dark:bg-gray-900 p-8 md:p-12 md:col-span-2">
+        <div className="grid w-full md:grid-cols-5 gap-1">
+          <div className="bg-white dark:bg-gray-900 p-8 md:p-12 md:col-span-3">
             <motion.div
               initial="hidden"
               animate="visible"
@@ -31,14 +31,11 @@ const HeroContent = () => {
 
                 <motion.div
                   variants={slideInFromLeft(0.5)}
-                  className="flex flex-col gap-6 mt-5 md:my-12  font-bold text-gray-800 dark:text-white max-w-[600px] w-auto h-auto"
+                  className="flex flex-col gap-6 mt-5 md:my-10 font-bold text-gray-800 dark:text-white max-w-[600px] w-auto h-auto"
                 >
                   <span>
-                    <p className="text-1xl md:text-5xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-                      Kỷ niệm 95 năm
-                    </p>
-                    <p className="text-1xl md:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-                      Ngày thành lập Công đoàn Việt Nam
+                    <p className="text-3xl md:text-5xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 mb-3">
+                      Kỷ niệm 95 năm Ngày Thành lập Công đoàn Việt Nam
                     </p>
                     <p className="text-1xl md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
                       26/7/1929 - 26/7/2024
@@ -74,7 +71,7 @@ const HeroContent = () => {
               </div>
             </motion.div>
           </div>
-          <div className="bg-white dark:bg-gray-900 p-8 md:p-12 hidden md:col-span-1 md:flex">
+          <div className="bg-white dark:bg-gray-900 p-8 md:p-12 hidden md:col-span-2 md:flex">
             {/* <motion.div
               initial="hidden"
               animate="visible"

@@ -20,7 +20,7 @@ export default function Navigation() {
             className="cursor-pointer hover:animate-slowspin"
           />
 
-          <span className="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-purple-900 to-cyan-900 dark:from-purple-300 dark:to-cyan-300 ml-[10px] text-gray-700 dark:text-gray-300">
+          <span className="font-bold text-sm md:text-xl text-transparent bg-clip-text bg-gradient-to-r from-purple-900 to-cyan-900 dark:from-purple-300 dark:to-cyan-300 ml-[10px] text-gray-700 dark:text-gray-300">
             {`Công đoàn Bình Dương`}
           </span>
         </Link>
