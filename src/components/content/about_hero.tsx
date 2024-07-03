@@ -13,8 +13,8 @@ import { FaDownload } from "react-icons/fa";
 
 const HeroContent = () => {
   return (
-    <section className="bg-white dark:bg-gray-900 pt-14">
-      <div className="py-8 px-4 mx-auto max-w-screen-xl">
+    <section className="bg-white dark:bg-gray-900 pt-8">
+      <div className="py-8 px-1 mx-auto max-w-screen-xl">
         <div className="grid w-full md:grid-cols-5 gap-1">
           <div className="bg-white dark:bg-gray-900 p-8 md:p-12 md:col-span-3">
             <motion.div
@@ -71,8 +71,8 @@ const HeroContent = () => {
               </div>
             </motion.div>
           </div>
-          <div className="bg-white dark:bg-gray-900 p-8 md:p-12 hidden md:col-span-2 md:flex">
-            {/* <motion.div
+          <div className="bg-white dark:bg-gray-900 p-2 hidden md:col-span-2 md:flex">
+            <motion.div
               initial="hidden"
               animate="visible"
               className="flex flex-row items-center justify-center w-full z-[20]"
@@ -93,7 +93,7 @@ const HeroContent = () => {
                   </motion.div>
                 </div>
               </div>
-            </motion.div> */}
+            </motion.div>
           </div>
         </div>
       </div>
