@@ -24,9 +24,9 @@ const HeroContent = () => {
             >
               <div className="h-full w-full flex flex-col justify-center m-auto text-start">
                 <div className="flex flex-row justify-start flex-wrap">
-                  <JobCard
+                  {/* <JobCard
                     name={`Kỷ niệm 95 năm Ngày thành lập Công đoàn Việt Nam`}
-                  />
+                  /> */}
                 </div>
 
                 <motion.div
@@ -58,15 +58,15 @@ const HeroContent = () => {
                   variants={slideInFromLeft(0.8)}
                   className="text-sm md:text-lg text-gray-700 dark:text-gray-300 mb-5 max-w-[600px]"
                 >
-                  I am a recent graduate majoring in information systems. I want
-                  to work as an Intern Data Analyst so I can apply my knowledge
-                  and skills and gain more practical experience to equip myself
-                  with more experience and skills to achieve the goal of
-                  becoming a good Data Scientist in the next 3 to 4 years.with
-                  more experience and skills to achieve the goal of becoming a
-                  good Data Scientist in the next 3 to 4 years.with more
-                  experience and skills to achieve the goal of becoming a good
-                  Data Scientist in the next 3 to 4 years.
+                  95 năm trước, ngày 28 tháng 7 năm 1929, Tổng Công hội đỏ Bắc
+                  Kỳ, tiền thân của tổ chức Công đoàn Việt Nam chính thức được
+                  thành lập, đánh dấu bước ngoặt lớn, khẳng định sự lớn mạnh của
+                  phong trào công nhân và hoạt động công đoàn cách mạng Việt
+                  Nam; là hạt nhân vận động, tập hợp giai cấp công nhân đi dưới
+                  ngọn cờ cách mạng vinh quang của Đảng Cộng sản Việt Nam.Tổ
+                  chức Công đoàn Việt Nam đã có những đóng góp quan trọng vào
+                  công cuộc đấu tranh giành độc lập dân tộc, giải phóng giai cấp
+                  và trong công cuộc xây dựng và phát triển đất nước.
                 </motion.p>
               </div>
             </motion.div>
