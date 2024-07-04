@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function ActivitivesPage() {
   return (
     <>
-      <section className="bg-white dark:bg-gray-900 pt-10">
+      <section className="bg-white dark:bg-gray-900 pt-20">
         <Activitives />
       </section>
     </>

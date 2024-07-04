@@ -19,10 +19,10 @@ export function Activitives(props: IActivitives) {
         animate="visible"
       >
         <motion.h2
-          className="mb-4 pb-10 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white"
+          className="mb-4 pb-10 text-2xl md:text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white"
           variants={slideInFromTop(0)}
         >
-          Hoạt động Kỷ niệm 95 năm Thành lập Công đoàn Việt Nam
+          Hoạt động Kỷ niệm
         </motion.h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectCard
@@ -40,7 +40,7 @@ export function Activitives(props: IActivitives) {
             type={"Code"}
             name={"Start with Design System"}
             delay={0.5}
-            img={"/project1.png"}
+            img={"/banner1.jpg"}
             description={`Static websites are now used to bootstrap lots of websites and are
           becoming the basis for a variety of tools that even influence both
           web designers and developers.`}
