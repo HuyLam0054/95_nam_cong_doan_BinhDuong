@@ -1,3 +1,4 @@
+import { Propagates } from "@/components/content/propagate_content";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -6,6 +7,12 @@ export const metadata: Metadata = {
   },
   title: "Tin tuyên truyền",
 };
-export default function ContactPage() {
-  return <></>;
+export default function PropagatesPage() {
+  return (
+    <>
+      <section className="bg-white dark:bg-gray-900 pt-20">
+        <Propagates />
+      </section>
+    </>
+  );
 }

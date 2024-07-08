@@ -34,11 +34,11 @@ const HeroContent = () => {
                   className="flex flex-col gap-6 mt-5 md:my-10 font-bold text-gray-800 dark:text-white max-w-[600px] w-auto h-auto"
                 >
                   <span>
-                    <p className="text-3xl md:text-4xl uppercase text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-red-400 mb-3">
+                    <p className="text-3xl md:text-4xl font-bold uppercase text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-700 mb-3">
                       Nhiệt liệt chào mừng 95 năm Ngày Thành lập Công đoàn Việt
                       Nam
                     </p>
-                    <p className="text-1xl md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                    <p className="text-1xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-700 to-orange-400">
                       (26/7/1929 - 26/7/2024)
                     </p>
                   </span>
@@ -57,17 +57,17 @@ const HeroContent = () => {
                 </motion.div>
                 <motion.p
                   variants={slideInFromLeft(0.8)}
-                  className="text-sm md:text-lg text-gray-700 dark:text-gray-300 mb-5 max-w-[600px]"
+                  className="text-base md:text-xl text-gray-700 dark:text-gray-300 mb-5 max-w-[600px]"
                 >
-                  95 năm trước, ngày 28 tháng 7 năm 1929, Tổng Công hội đỏ Bắc
-                  Kỳ, tiền thân của tổ chức Công đoàn Việt Nam chính thức được
-                  thành lập, đánh dấu bước ngoặt lớn, khẳng định sự lớn mạnh của
-                  phong trào công nhân và hoạt động công đoàn cách mạng Việt
-                  Nam; là hạt nhân vận động, tập hợp giai cấp công nhân đi dưới
-                  ngọn cờ cách mạng vinh quang của Đảng Cộng sản Việt Nam.Tổ
-                  chức Công đoàn Việt Nam đã có những đóng góp quan trọng vào
-                  công cuộc đấu tranh giành độc lập dân tộc, giải phóng giai cấp
-                  và trong công cuộc xây dựng và phát triển đất nước.
+                  Ngày 28 tháng 7 năm 1929, Tổng Công hội đỏ Bắc Kỳ, tiền thân
+                  của tổ chức Công đoàn Việt Nam chính thức được thành lập, đánh
+                  dấu bước ngoặt lớn, khẳng định sự lớn mạnh của phong trào công
+                  nhân và hoạt động công đoàn cách mạng Việt Nam; là hạt nhân
+                  vận động, tập hợp giai cấp công nhân đi dưới ngọn cờ cách mạng
+                  vinh quang của Đảng Cộng sản Việt Nam.Tổ chức Công đoàn Việt
+                  Nam đã có những đóng góp quan trọng vào công cuộc đấu tranh
+                  giành độc lập dân tộc, giải phóng giai cấp và trong công cuộc
+                  xây dựng và phát triển đất nước.
                 </motion.p>
               </div>
             </motion.div>

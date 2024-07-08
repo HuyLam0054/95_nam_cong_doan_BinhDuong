@@ -86,20 +86,20 @@ export default function BottomNavigation() {
 
         <button
           type="button"
-          onClick={() => router.push("/contact")}
+          onClick={() => router.push("/propagate")}
           className={`inline-flex flex-col items-center justify-center px-5 rounded-e-full 
           hover:bg-gray-50 dark:hover:bg-gray-800 group ${
-            pathName == "/contact" ? "bg-gray-50 dark:bg-gray-800" : ""
+            pathName == "/propagate" ? "bg-gray-50 dark:bg-gray-800" : ""
           }`}
         >
           <FaPhone
             className={`w-6 h-6 mb-1 group-hover:text-blue-600 dark:group-hover:text-blue-500 ${
-              pathName == "/contact"
+              pathName == "/propagate"
                 ? "text-blue-600 dark:text-blue-500"
                 : "text-gray-500"
             }`}
           />
-          <span className="sr-only">Contact</span>
+          <span className="sr-only">Propagates</span>
         </button>
       </div>
     </div>
