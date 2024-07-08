@@ -34,11 +34,12 @@ const HeroContent = () => {
                   className="flex flex-col gap-6 mt-5 md:my-10 font-bold text-gray-800 dark:text-white max-w-[600px] w-auto h-auto"
                 >
                   <span>
-                    <p className="text-3xl md:text-5xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 mb-3">
-                      Kỷ niệm 95 năm Ngày Thành lập Công đoàn Việt Nam
+                    <p className="text-3xl md:text-4xl uppercase text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-red-400 mb-3">
+                      Nhiệt liệt chào mừng 95 năm Ngày Thành lập Công đoàn Việt
+                      Nam
                     </p>
                     <p className="text-1xl md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-                      26/7/1929 - 26/7/2024
+                      (26/7/1929 - 26/7/2024)
                     </p>
                   </span>
                 </motion.div>

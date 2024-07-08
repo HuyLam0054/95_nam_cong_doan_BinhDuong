@@ -58,14 +58,14 @@ export default function Navigation() {
               Hoạt động
             </Link>
             <Link
-              href="/contact"
+              href="/propagate"
               className={`cursor-pointer font-bold ${
-                pathName == "/contact"
+                pathName == "/propagate"
                   ? "text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-cyan-700 dark:from-purple-300 dark:to-cyan-300"
                   : "text-gray-700 dark:text-white"
               }`}
             >
-              Liên hệ
+              Tuyên truyền
             </Link>
           </div>
         </div>

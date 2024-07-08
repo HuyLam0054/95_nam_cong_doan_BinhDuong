@@ -5,7 +5,7 @@ import { FaLocationArrow, FaTools } from "react-icons/fa";
 
 export const metadata: Metadata = {
   icons: {
-    icon: "/huyhieucongdoan.png",
+    icon: "/logo95nam.png",
   },
   title: "Lịch sử Công đoàn",
 };
