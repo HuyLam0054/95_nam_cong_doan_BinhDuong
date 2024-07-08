@@ -19,9 +19,9 @@ export function Propagates(props: IPropagates) {
           className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-orange-400 pb-10 text-2xl md:text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white"
           variants={slideInFromTop(0)}
         >
-          Banner tuyên truyền
+          Bộ Banner và Standee tuyên truyền
         </motion.h2>
-        {/* Biểu ngữ treo dài */}
+        {/* Banner */}
         <div className="grid md:grid-cols-1 gap-2">
           <BannerCard
             type={"Banner"}
@@ -37,7 +37,7 @@ export function Propagates(props: IPropagates) {
             img={"/pictures/Banner/banner2.png"}
             description={``}
           />
-          <BannerCard
+          {/* <BannerCard
             type={"Banner"}
             name={""}
             delay={0.8}
@@ -78,30 +78,10 @@ export function Propagates(props: IPropagates) {
             delay={2.5}
             img={"/pictures/Banner/banner8.png"}
             description={``}
-          />
+          /> */}
         </div>
-        <motion.h2
-          className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-orange-400 py-10 text-2xl md:text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white"
-          variants={slideInFromTop(0)}
-        >
-          Standee tuyên truyền
-        </motion.h2>
         {/* Biểu ngữ treo đứng */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
-          <StandeeCard
-            type={"Standee"}
-            name={""}
-            delay={0.5}
-            img={"/pictures/Standee/Standee FN-01.png"}
-            description={``}
-          />
-          <StandeeCard
-            type={"Standee"}
-            name={""}
-            delay={0.5}
-            img={"/pictures/Standee/Standee FN-02.png"}
-            description={``}
-          />
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mt-2">
           <StandeeCard
             type={"Standee"}
             name={""}
@@ -130,6 +110,20 @@ export function Propagates(props: IPropagates) {
             img={"/pictures/Standee/Standee FN-06.png"}
             description={``}
           />
+          {/* <StandeeCard
+            type={"Standee"}
+            name={""}
+            delay={0.5}
+            img={"/pictures/Standee/Standee FN-05.png"}
+            description={``}
+          />
+          <StandeeCard
+            type={"Standee"}
+            name={""}
+            delay={0.5}
+            img={"/pictures/Standee/Standee FN-06.png"}
+            description={``}
+          />
           <StandeeCard
             type={"Standee"}
             name={""}
@@ -143,23 +137,7 @@ export function Propagates(props: IPropagates) {
             delay={0.5}
             img={"/pictures/Standee/Standee FN-08.png"}
             description={``}
-          />
-        </div>
-        <motion.h2
-          className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-orange-400 py-10 text-2xl md:text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white"
-          variants={slideInFromTop(0)}
-        >
-          Logo kỷ niệm 95 năm Thành lập Công đoàn
-        </motion.h2>
-        {/* Biểu ngữ treo đứng */}
-        <div className="grid grid-cols-2 gap-2">
-          <StandeeCard
-            type={"logo"}
-            name={""}
-            delay={0.5}
-            img={"/pictures/Logo95năm/Logo95nam.FN-01.png"}
-            description={``}
-          />
+          /> */}
         </div>
       </motion.div>
     </>
