@@ -27,56 +27,56 @@ export function Propagates(props: IPropagates) {
             type={"Banner"}
             name={""}
             delay={0.3}
-            img={"/pictures/banner/banner1.png"}
+            img={"/pictures/Banner/banner1.png"}
             description={``}
           />
           <BannerCard
             type={"Banner"}
             name={""}
             delay={0.5}
-            img={"/pictures/banner/banner2.png"}
+            img={"/pictures/Banner/banner2.png"}
             description={``}
           />
           <BannerCard
             type={"Banner"}
             name={""}
             delay={0.8}
-            img={"/pictures/banner/banner3.png"}
+            img={"/pictures/Banner/banner3.png"}
             description={``}
           />
           <BannerCard
             type={"Banner"}
             name={""}
             delay={1.1}
-            img={"/pictures/banner/banner4.png"}
+            img={"/pictures/Banner/banner4.png"}
             description={``}
           />
           <BannerCard
             type={"Banner"}
             name={""}
             delay={1.5}
-            img={"/pictures/banner/banner5.png"}
+            img={"/pictures/Banner/banner5.png"}
             description={``}
           />
           <BannerCard
             type={"Banner"}
             name={""}
             delay={1.8}
-            img={"/pictures/banner/banner6.png"}
+            img={"/pictures/Banner/banner6.png"}
             description={``}
           />
           <BannerCard
             type={"Banner"}
             name={""}
             delay={2.1}
-            img={"/pictures/banner/banner7.png"}
+            img={"/pictures/Banner/banner7.png"}
             description={``}
           />
           <BannerCard
             type={"Banner"}
             name={""}
             delay={2.5}
-            img={"/pictures/banner/banner8.png"}
+            img={"/pictures/Banner/banner8.png"}
             description={``}
           />
         </div>
