@@ -145,6 +145,22 @@ export function Propagates(props: IPropagates) {
             description={``}
           />
         </div>
+        <motion.h2
+          className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-orange-400 py-10 text-2xl md:text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white"
+          variants={slideInFromTop(0)}
+        >
+          Logo kỷ niệm 95 năm Thành lập Công đoàn
+        </motion.h2>
+        {/* Biểu ngữ treo đứng */}
+        <div className="grid grid-cols-2 gap-2">
+          <StandeeCard
+            type={"logo"}
+            name={""}
+            delay={0.5}
+            img={"/pictures/Logo95năm/Logo95nam.FN-01.png"}
+            description={``}
+          />
+        </div>
       </motion.div>
     </>
   );
