@@ -81,7 +81,7 @@ export function Propagates(props: IPropagates) {
           />
         </div>
         {/* Biểu ngữ treo đứng */}
-        <div className="grid md:grid-cols-2 gap-2 mt-8">
+        <div className="grid md:grid-cols-4 gap-2 mt-8">
           <ProjectCard
             type={"Code"}
             name={
