@@ -3,7 +3,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   icons: {
-    icon: "/logo.png",
+    icon: "/logo95nam.png",
   },
   title: "Tin tuyên truyền",
 };
