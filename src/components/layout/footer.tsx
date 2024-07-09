@@ -49,15 +49,15 @@ export default function Footer() {
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
                   <Link
-                    href="https://github.com/HuyLam0054"
-                    className="hover:underline "
+                    href="https://www.facebook.com/congdoanbinhduong"
+                    className="hover:underline"
                   >
-                    Github
+                    Facebook
                   </Link>
                 </li>
                 <li>
                   <Link href="/" className="hover:underline">
-                    Discord
+                    Zalo
                   </Link>
                 </li>
               </ul>
