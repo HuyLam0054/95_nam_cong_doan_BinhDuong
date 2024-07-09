@@ -16,10 +16,7 @@ export function Propagates(props: IPropagates) {
         initial="hidden"
         animate="visible"
       >
-        <motion.div
-          className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-orange-400 pb-10 text-2xl md:text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white"
-          variants={slideInFromTop(0)}
-        >
+        <div className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-orange-400 pb-10 text-2xl md:text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
           <span>Bộ Banner và Standee tuyên truyền</span>
           <DownloadButton
             url_download={
@@ -28,7 +25,7 @@ export function Propagates(props: IPropagates) {
             file_name={"Bộ nhận diện 95 năm Công đoàn Việt Nam.zip"}
             align={"text-center"}
           />
-        </motion.div>
+        </div>
 
         {/* Banner */}
         <div className="grid md:grid-cols-1 gap-2">

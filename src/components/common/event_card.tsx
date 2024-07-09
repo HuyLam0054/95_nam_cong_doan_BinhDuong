@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { slideInFromTop } from "@/utils/motion";
 import * as React from "react";
 
-export interface IProjectCardProps {
+export interface IEventCardProps {
   img: string;
   type: String;
   name: String;
@@ -13,7 +13,7 @@ export interface IProjectCardProps {
   delay: number;
 }
 
-export function ProjectCard(props: IProjectCardProps) {
+export function EventCard(props: IEventCardProps) {
   return (
     <motion.div
       variants={slideInFromTop(props.delay)}
@@ -28,10 +28,10 @@ export function ProjectCard(props: IProjectCardProps) {
       />
 
       <div className="relative p-4">
-        <h1 className="text-gray-900 dark:text-white text-2xl font-semibold ">
+        <h1 className="text-gray-900 dark:text-white text-xl font-semibold ">
           {props.name}
         </h1>
-        <p className="text-gray-900 dark:text-white mt-2">
+        <p className="text-gray-900 dark:text-white mt-2 text-sm">
           {props.description}
         </p>
       </div>
