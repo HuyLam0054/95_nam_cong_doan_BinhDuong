@@ -15,10 +15,7 @@ export interface IBannerCardProps {
 
 export function BannerCard(props: IBannerCardProps) {
   return (
-    <motion.div
-      variants={slideInFromTop(props.delay)}
-      className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]"
-    >
+    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
       <img src={props.img} alt={props.img} className="w-full" />
 
       <div className="relative">
@@ -27,6 +24,6 @@ export function BannerCard(props: IBannerCardProps) {
         </h1>
         <p className="text-gray-900 dark:text-white">{props.description}</p>
       </div>
-    </motion.div>
+    </div>
   );
 }
