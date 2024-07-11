@@ -4,7 +4,6 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { slideInFromTop } from "@/utils/motion";
 import * as React from "react";
-import { Test } from "../test";
 
 export interface IBannerCardProps {
   img: string;
