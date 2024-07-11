@@ -16,7 +16,7 @@ export default function Footer() {
                 className=" me-3"
                 alt="Logo"
               />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+              <span className="self-center text-xl md:text-2xl uppercase font-semibold whitespace-nowrap dark:text-white">
                 {`Công đoàn Bình Dương`}
               </span>
             </Link>
