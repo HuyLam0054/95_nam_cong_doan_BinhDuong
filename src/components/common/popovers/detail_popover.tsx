@@ -38,7 +38,7 @@ export function DetailPopover(props: IDetailPopoverProps) {
           </div>
         }
       >
-        <a className="text-blue-600 hover:text-red-300 dark:text-blue-500">
+        <a className="cursor-pointer text-blue-600 hover:text-red-300 dark:text-blue-500">
           {props.name}
         </a>
       </Popover>

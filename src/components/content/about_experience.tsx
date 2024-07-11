@@ -2,7 +2,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { slideInFromLeft, slideInFromTop } from "@/utils/motion";
-import { Experience } from "../common/experience";
 
 export interface IExperienceContentProps {}
 
