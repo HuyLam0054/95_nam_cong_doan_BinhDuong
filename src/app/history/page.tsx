@@ -1,3 +1,4 @@
+import { HistoryContent } from "@/components/content/history/history_CD";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -14,8 +15,8 @@ export default function SkillsPage() {
           <div className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-orange-400 pb-10 text-2xl md:text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
             <span>Lịch sử Công đoàn</span>
           </div>
-          <div className="grid gap-8 max-w-[70%]">
-            {/* <HistoryContent /> */}
+          <div className="mx-auto">
+            <HistoryContent />
           </div>
         </div>
       </section>
