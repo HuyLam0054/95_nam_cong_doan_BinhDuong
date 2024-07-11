@@ -1,5 +1,5 @@
 import * as React from "react";
-import { HistoryEvent } from "../common/history_event";
+import { HistoryEvent } from "../../common/events/history_event";
 
 export interface IHistoryContentProps {}
 

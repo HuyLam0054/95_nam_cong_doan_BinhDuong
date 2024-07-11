@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { slideInFromLeft, slideInFromTop } from "@/utils/motion";
 import Image from "next/image";
 
-import { DetailPopover } from "../common/popovers/detail_popover";
+import { DetailPopover } from "../../common/popovers/detail_popover";
 
 const HeroContent = () => {
   return (
@@ -53,18 +53,18 @@ const HeroContent = () => {
                   Ngày 28 tháng 7 năm 1929, Tổng Công hội đỏ Bắc Kỳ, tiền thân
                   của tổ chức Công đoàn Việt Nam chính thức được thành lập, đánh
                   dấu bước ngoặt lớn, khẳng định sự lớn mạnh của phong trào công
-                  nhân và hoạt động công đoàn cách mạng Việt Nam; là hạt nhân
-                  vận động, tập hợp giai cấp công nhân đi dưới ngọn cờ cách mạng
-                  vinh quang của Đảng Cộng sản Việt Nam.Tổ chức Công đoàn Việt
-                  Nam đã có những đóng góp quan trọng vào công cuộc đấu tranh
-                  giành độc lập dân tộc, giải phóng giai cấp và trong công cuộc
-                  xây dựng và phát triển đất nước.
+                  nhân và hoạt động công đoàn cách mạng Việt Nam; là hạt nhân{" "}
                   <DetailPopover
                     name={`Đồng chí Nguyễn Đức Cảnh`}
                     date={`(1908-1932)`}
                     detail={`Người lãnh đạo đầu tiên của Tổng Công hội Đỏ Bắc Kỳ tiền thân của tổ chức Công đoàn Việt Nam chính thức được thành lập, đánh dấu bước ngoặt lớn, khẳng định sự lớn mạnh của phong trào công nhân và hoạt động công đoàn cách mạng Việt Nam`}
                     img_url={`https://baotanglichsu.vn/DataFiles/Uploaded/image/cong%20hoi%20do/anh2.jpg`}
-                  />
+                  />{" "}
+                  vận động, tập hợp giai cấp công nhân đi dưới ngọn cờ cách mạng
+                  vinh quang của Đảng Cộng sản Việt Nam.Tổ chức Công đoàn Việt
+                  Nam đã có những đóng góp quan trọng vào công cuộc đấu tranh
+                  giành độc lập dân tộc, giải phóng giai cấp và trong công cuộc
+                  xây dựng và phát triển đất nước.
                 </motion.p>
               </div>
             </motion.div>

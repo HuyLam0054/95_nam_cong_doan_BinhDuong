@@ -8,8 +8,8 @@ export interface ISliderCaroselProps {}
 
 export function SliderCarosel(props: ISliderCaroselProps) {
   return (
-    <div className="h-32 sm:h-64 xl:h-44 max-w-screen-xl mx-auto">
-      <Carousel slideInterval={3000}>
+    <div className="h-12 sm:h-64 xl:h-44 max-w-screen-xl mx-auto">
+      <Carousel slideInterval={3000} indicators={false}>
         <img src="/pictures/Banner/banner1.png" className="" alt="..." />
         <img src="/pictures/Banner/banner2.png" className="" alt="..." />
         <img src="/pictures/Banner/banner3.png" className="" alt="..." />

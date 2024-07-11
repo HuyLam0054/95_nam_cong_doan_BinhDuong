@@ -1,9 +1,9 @@
 "use client";
 import * as React from "react";
 import { motion } from "framer-motion";
-import { BannerCard } from "../common/cards/banner_card";
-import { StandeeCard } from "../common/cards/standee_card";
-import { DownloadButton } from "../common/buttons/download_button";
+import { BannerCard } from "../../common/cards/banner_card";
+import { StandeeCard } from "../../common/cards/standee_card";
+import { DownloadButton } from "../../common/buttons/download_button";
 
 export interface IPropagates {}
 

@@ -1,6 +1,6 @@
 import { SliderCarosel } from "@/components/common/sliders/slider_carosel";
-import HeroContent from "@/components/content/about_hero";
-import AboutMe from "@/components/content/about_info";
+import HeroContent from "@/components/content/about/about_hero";
+import AboutMe from "@/components/content/about/about_info";
 
 import { Metadata } from "next";
 

@@ -1,4 +1,4 @@
-import { Activitives } from "@/components/content/activitives_content";
+import { Activitives } from "@/components/content/activitives/activitives_content";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

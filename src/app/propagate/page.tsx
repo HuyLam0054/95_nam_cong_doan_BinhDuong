@@ -1,4 +1,4 @@
-import { Propagates } from "@/components/content/propagate_content";
+import { Propagates } from "@/components/content/propagate/propagate_content";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
