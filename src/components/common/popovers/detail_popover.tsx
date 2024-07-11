@@ -21,17 +21,19 @@ export function DetailPopover(props: IDetailPopoverProps) {
             <div className="grid grid-cols-5">
               <div className="col-span-3 p-3">
                 <div className="space-y-2">
-                  <h3 className="font-bold text-center text-gray-900 dark:text-white">
+                  <h3 className="font-bold text-center text-gray-900 dark:text-white text-lg">
                     {props.name}
                     <br />
                     {props.date}
                   </h3>
-                  <p>{props.detail}</p>
+                  <p className="text-black font-normal text-sm">
+                    {props.detail}
+                  </p>
                 </div>
               </div>
               <img
                 src={props.img_url}
-                className="col-span-2 h-full"
+                className="col-span-2"
                 alt={props.img_url}
               />
             </div>

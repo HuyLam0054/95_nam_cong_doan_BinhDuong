@@ -57,7 +57,7 @@ const HeroContent = () => {
                   <DetailPopover
                     name={`Đồng chí Nguyễn Đức Cảnh`}
                     date={`(1908-1932)`}
-                    detail={`Người lãnh đạo đầu tiên của Tổng Công hội Đỏ Bắc Kỳ tiền thân của tổ chức Công đoàn Việt Nam chính thức được thành lập, đánh dấu bước ngoặt lớn, khẳng định sự lớn mạnh của phong trào công nhân và hoạt động công đoàn cách mạng Việt Nam`}
+                    detail={`Ông là một nhà cách mạng Việt Nam, một trong những người sáng lập Đảng Cộng sản Việt Nam. Sinh tại Thái Bình, ông tham gia Hội Việt Nam Cách mạng Thanh niên và sau đó học tập tại Quảng Châu, Trung Quốc. Ông đóng vai trò quan trọng trong phong trào công nhân ở miền Bắc Việt Nam, tổ chức nhiều cuộc đình công và biểu tình. Năm 1931, ông bị thực dân Pháp bắt và bị xử bắn vào năm 1932. Nguyễn Đức Cảnh được nhớ đến như một biểu tượng của tinh thần cách mạng và lòng yêu nước, với nhiều địa điểm tại Việt Nam mang tên ông để tôn vinh những đóng góp của ông.`}
                     img_url={`https://baotanglichsu.vn/DataFiles/Uploaded/image/cong%20hoi%20do/anh2.jpg`}
                   />{" "}
                   vận động, tập hợp giai cấp công nhân đi dưới ngọn cờ cách mạng
