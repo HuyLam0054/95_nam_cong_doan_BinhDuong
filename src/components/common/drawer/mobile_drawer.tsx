@@ -28,10 +28,10 @@ export function MobileDrawer() {
       >
         <Drawer.Header
           closeIcon={HiBars2}
-          title="Thanh điều hướng"
+          title=""
           titleIcon={HiSquaresPlus}
           onClick={() => setIsOpen(!isOpen)}
-          className="cursor-pointer px-4 pt-4 "
+          className="cursor-pointer px-4 pt-4 bg-white"
         />
         <Drawer.Items className="p-4">
           <div className="grid grid-cols-3 gap-4 p-4 lg:grid-cols-4">

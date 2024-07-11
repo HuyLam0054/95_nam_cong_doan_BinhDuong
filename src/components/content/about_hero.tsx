@@ -2,19 +2,14 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import {
-  slideInFromLeft,
-  slideInFromRight,
-  slideInFromTop,
-} from "@/utils/motion";
+import { slideInFromLeft, slideInFromTop } from "@/utils/motion";
 import Image from "next/image";
-import { JobCard } from "../common/cards/job_card";
-import { FaDownload } from "react-icons/fa";
+
 import { DetailPopover } from "../common/popovers/detail_popover";
 
 const HeroContent = () => {
   return (
-    <section className="bg-white dark:bg-gray-900 pt-8">
+    <section className="bg-white dark:bg-gray-900 pt-8 min-h-screen">
       <div className="py-8 px-1 mx-auto max-w-screen-xl">
         <div className="grid w-full md:grid-cols-5 gap-1">
           <div className="bg-white dark:bg-gray-900 p-8 md:p-12 md:col-span-3">
