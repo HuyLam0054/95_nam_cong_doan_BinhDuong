@@ -28,7 +28,7 @@ export function MobileDrawer() {
       >
         <Drawer.Header
           closeIcon={HiBars2}
-          title=""
+          title="Thanh điều hướng"
           titleIcon={HiSquaresPlus}
           onClick={() => setIsOpen(!isOpen)}
           className="cursor-pointer px-4 pt-4 "
