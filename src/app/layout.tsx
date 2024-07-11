@@ -5,6 +5,7 @@ import Footer from "@/components/layout/footer";
 import Navigation from "@/components/layout/navigation";
 import StarsCanvas from "@/components/layout/background";
 import React from "react";
+import { ThemeModeScript } from "flowbite-react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,12 +21,15 @@ export default function RootLayout({
   params: { locale },
 }: Readonly<RootLayoutProps>) {
   return (
-    <html lang={locale}>
+    <html lang={locale} suppressHydrationWarning>
+      <head>
+        <ThemeModeScript />
+      </head>
       <body className={inter.className}>
         <Navigation />
         <BottomNavigation />
         {children}
-        <StarsCanvas />
+        {/* <StarsCanvas /> */}
         <Footer />
       </body>
     </html>

@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
-import TransitionEffect from "@/components/common/transition_effect";
+import TransitionEffect from "@/components/common/effects/transition_effect";
 import { Metadata } from "next";
 import Link from "next/link";
 

@@ -1,3 +1,4 @@
+import { MobileDrawer } from "@/components/common/drawer/mobile_drawer";
 import HeroContent from "@/components/content/about_hero";
 import AboutMe from "@/components/content/about_info";
 

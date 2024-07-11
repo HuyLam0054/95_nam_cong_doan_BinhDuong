@@ -1,13 +1,9 @@
 "use client";
 import React from "react";
-import {
-  FaClipboardList,
-  FaFilePdf,
-  FaHome,
-  FaPhone,
-  FaProjectDiagram,
-} from "react-icons/fa";
+import { FaClipboardList, FaHome, FaProjectDiagram } from "react-icons/fa";
 import { usePathname, useRouter } from "next/navigation";
+import { MobileDrawer } from "../common/drawer/mobile_drawer";
+import { FiActivity } from "react-icons/fi";
 
 export default function BottomNavigation() {
   const pathName = usePathname();
@@ -55,17 +51,7 @@ export default function BottomNavigation() {
           />
           <span className="sr-only">history</span>
         </button>
-
-        <div className="flex items-center justify-center">
-          <button
-            type="button"
-            className="inline-flex items-center justify-center w-10 h-10 font-medium bg-blue-600 rounded-full hover:bg-blue-700 group focus:ring-4 focus:ring-blue-300 focus:outline-none dark:focus:ring-blue-800"
-          >
-            <FaFilePdf className="w-4 h-4 text-white" />
-            <span className="sr-only">Infographic</span>
-          </button>
-        </div>
-
+        <MobileDrawer />
         <button
           type="button"
           onClick={() => router.push("/activitives")}
@@ -74,7 +60,7 @@ export default function BottomNavigation() {
             pathName == "/activitives" ? "bg-gray-50 dark:bg-gray-800" : ""
           }`}
         >
-          <FaClipboardList
+          <FiActivity
             className={`w-6 h-6 mb-1 group-hover:text-blue-600 dark:group-hover:text-blue-500 ${
               pathName == "/activitives"
                 ? "text-blue-600 dark:text-blue-500"
@@ -92,7 +78,7 @@ export default function BottomNavigation() {
             pathName == "/propagate" ? "bg-gray-50 dark:bg-gray-800" : ""
           }`}
         >
-          <FaPhone
+          <FaClipboardList
             className={`w-6 h-6 mb-1 group-hover:text-blue-600 dark:group-hover:text-blue-500 ${
               pathName == "/propagate"
                 ? "text-blue-600 dark:text-blue-500"

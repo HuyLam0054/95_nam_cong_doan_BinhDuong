@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import Clock from "../common/clock";
+import Clock from "../common/clocks/clock";
 
 export default function Navigation() {
   const pathName = usePathname();
