@@ -30,7 +30,7 @@ const HeroContent = () => {
                       {`Nhiệt liệt chào mừng 95 năm Ngày Thành lập Công đoàn Việt Nam`}
                     </p>
                     <p className="text-1xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-700 to-orange-400">
-                      (26/7/1929 - 26/7/2024)
+                      (28/7/1929 - 28/7/2024)
                     </p>
                   </span>
                 </motion.div>

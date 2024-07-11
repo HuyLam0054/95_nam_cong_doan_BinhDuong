@@ -12,7 +12,7 @@ export interface IDetailPopoverProps {
 
 export function DetailPopover(props: IDetailPopoverProps) {
   return (
-    <span className="text-gray-500 dark:text-gray-400">
+    <span className="text-gray-500 dark:text-gray-400 z-50">
       {""}
       <Popover
         trigger="hover"

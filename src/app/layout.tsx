@@ -1,4 +1,3 @@
-import { Inter } from "next/font/google";
 import "../styles/globals.css";
 import BottomNavigation from "@/components/layout/bottom_navigation";
 import Footer from "@/components/layout/footer";
@@ -6,9 +5,13 @@ import Navigation from "@/components/layout/navigation";
 import StarsCanvas from "@/components/layout/background";
 import React from "react";
 import { ThemeModeScript } from "flowbite-react";
+import { Aleo } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
-
+const aleo = Aleo({
+  weight: "500",
+  subsets: ["latin"],
+  display: "swap",
+});
 interface RootLayoutProps {
   children: React.ReactNode;
   params: {
@@ -25,7 +28,7 @@ export default function RootLayout({
       <head>
         <ThemeModeScript />
       </head>
-      <body className={inter.className}>
+      <body className={aleo.className}>
         <Navigation />
         <BottomNavigation />
         {children}
