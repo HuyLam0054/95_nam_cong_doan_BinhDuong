@@ -1,4 +1,4 @@
-import { MobileDrawer } from "@/components/common/drawer/mobile_drawer";
+import { SliderCarosel } from "@/components/common/sliders/slider_carosel";
 import HeroContent from "@/components/content/about_hero";
 import AboutMe from "@/components/content/about_info";
 
@@ -15,6 +15,7 @@ export default function Home() {
     <>
       <div className="bg-white dark:bg-gray-900 pb-20 md:pb-0 min-h-screen w-full">
         <HeroContent />
+        <SliderCarosel />
         <AboutMe />
       </div>
     </>

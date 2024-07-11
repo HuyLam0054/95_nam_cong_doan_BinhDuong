@@ -9,8 +9,8 @@ import { DetailPopover } from "../common/popovers/detail_popover";
 
 const HeroContent = () => {
   return (
-    <section className="bg-white dark:bg-gray-900 pt-8 min-h-screen">
-      <div className="py-8 px-1 mx-auto max-w-screen-xl">
+    <section className="bg-white dark:bg-gray-900">
+      <div className="pt-12 px-1 mx-auto max-w-screen-xl">
         <div className="grid w-full md:grid-cols-5 gap-1">
           <div className="bg-white dark:bg-gray-900 p-8 md:p-12 md:col-span-3">
             <motion.div
@@ -36,7 +36,7 @@ const HeroContent = () => {
                 </motion.div>
                 <motion.div
                   variants={slideInFromTop(0)}
-                  className="w-full h-full justify-center items-center flex md:hidden my-3"
+                  className="w-full h-full justify-center items-center flex md:hidden mt-3"
                 >
                   <Image
                     src="/banner1.jpg"
