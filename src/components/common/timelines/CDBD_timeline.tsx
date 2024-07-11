@@ -3,7 +3,7 @@
 import { Button, Timeline } from "flowbite-react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 
-export function BDTimeline() {
+export function CDBDTimeline() {
   return (
     <Timeline>
       <Timeline.Item>

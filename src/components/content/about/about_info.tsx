@@ -1,7 +1,7 @@
 "use client";
 import { NameCard } from "@/components/common/cards/name_card";
 import React from "react";
-import { BDTimeline } from "@/components/common/timelines/BD_timeline";
+import { LeaderTimeline } from "@/components/common/timelines/leader_timeline";
 
 export default function AboutMe() {
   return (
@@ -18,7 +18,7 @@ export default function AboutMe() {
             description={`Ủy viên Đoàn Chủ tịch Tổng Liên đoàn khóa XII, Tỉnh ủy viên, Chủ tịch Liên đoàn Lao động tỉnh Bình Dương`}
           />
           <div className="bg-white dark:bg-gray-900 p-2 hidden md:col-span-2 md:flex">
-            <BDTimeline />
+            <LeaderTimeline />
           </div>
         </div>
 
@@ -32,7 +32,7 @@ export default function AboutMe() {
           <NameCard
             position={`Phó Chủ tịch`}
             name={`Bà Ong Thị Hoàng Mai`}
-            img_add={`/pictures/lanhdao/pct_othm.jpg`}
+            img_add={`/pictures/lanhdao/pct_othm1.jpg`}
             description={`Ủy viên Đoàn Chủ tịch Tổng Liên đoàn khóa XII, Tỉnh ủy viên, Chủ tịch Liên đoàn Lao động tỉnh Bình Dương`}
           />
           <NameCard
