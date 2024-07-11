@@ -1,7 +1,7 @@
 "use client";
 import * as React from "react";
 import { motion } from "framer-motion";
-import { slideInFromTop } from "@/utils/motion";
+
 import { EventCard } from "../common/cards/event_card";
 
 export interface IActivitives {}

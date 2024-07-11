@@ -1,7 +1,5 @@
 "use client";
 import React from "react";
-import { motion } from "framer-motion";
-import { slideInFromLeft, slideInFromTop } from "@/utils/motion";
 
 export default function AboutMe() {
   return (
