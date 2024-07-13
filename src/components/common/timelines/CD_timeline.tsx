@@ -4,7 +4,7 @@ import * as React from "react";
 import { Timeline } from "flowbite-react";
 import { HiCalendar } from "react-icons/hi";
 import Image from "next/image";
-import { ImageHistory } from "./image";
+import { ImageHistory } from "../images/image";
 
 export interface ICDTimelineProps {}
 

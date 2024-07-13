@@ -28,19 +28,19 @@ export default function AboutMe() {
             position={`Phó Chủ tịch thường trực`}
             name={`Bà Nguyễn Hoàng Bảo Trân`}
             img_add={`/pictures/lanhdao/pct_nhbt.jpg`}
-            description={`Ủy viên Đoàn Chủ tịch Tổng Liên đoàn khóa XII, Tỉnh ủy viên, Chủ tịch Liên đoàn Lao động tỉnh Bình Dương`}
+            description={`Phó Chủ tịch Liên đoàn Lao động tỉnh Bình Dương`}
           />
           <NameCard
             position={`Phó Chủ tịch`}
-            name={`Bà Ong Thị Hoàng Mai`}
-            img_add={`/pictures/lanhdao/pct_othm1.jpg`}
-            description={`Ủy viên Đoàn Chủ tịch Tổng Liên đoàn khóa XII, Tỉnh ủy viên, Chủ tịch Liên đoàn Lao động tỉnh Bình Dương`}
+            name={`Bà Ong Thuỵ Hoàng Mai`}
+            img_add={`/pictures/lanhdao/pct_othm.jpg`}
+            description={`Phó Chủ tịch Liên đoàn Lao động tỉnh Bình Dương`}
           />
           <NameCard
             position={`Phó Chủ tịch`}
-            name={`Ông Đặng Trung Dũng`}
+            name={`Tiến sĩ Đặng Trung Dũng`}
             img_add={`/pictures/lanhdao/pct_dtd.jpg`}
-            description={`Ủy viên Đoàn Chủ tịch Tổng Liên đoàn khóa XII, Tỉnh ủy viên, Chủ tịch Liên đoàn Lao động tỉnh Bình Dương`}
+            description={`Uỷ viên ban chấp hành Tổng Liên đoàn Lao động Việt Nam, Phó Chủ tịch Liên đoàn Lao động tỉnh Bình Dương`}
           />
           <NameCard
             position={`Phó Chủ tịch`}

@@ -2,7 +2,7 @@
 
 import { Timeline } from "flowbite-react";
 
-export function CDBDTimeline() {
+export function PlanTimeline() {
   return (
     <Timeline>
       <Timeline.Item>
