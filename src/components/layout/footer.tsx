@@ -13,7 +13,7 @@ export default function Footer() {
                 width={100}
                 height={100}
                 src="/huyhieucongdoan.png"
-                className=" me-3"
+                className="me-2 h-20 w-20"
                 alt="Logo"
               />
               <span className="self-center text-xl md:text-2xl uppercase font-semibold whitespace-nowrap dark:text-white">

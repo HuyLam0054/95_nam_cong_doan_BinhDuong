@@ -1,6 +1,7 @@
 import { SliderCarosel } from "@/components/common/sliders/slider_carosel";
 import HeroContent from "@/components/content/about/about_hero";
 import AboutMe from "@/components/content/about/about_info";
+import { AboutTab } from "@/components/content/about/about_tab";
 
 import { Metadata } from "next";
 
@@ -17,6 +18,7 @@ export default function Home() {
         <HeroContent />
         <SliderCarosel />
         <AboutMe />
+        <AboutTab />
       </div>
     </>
   );
