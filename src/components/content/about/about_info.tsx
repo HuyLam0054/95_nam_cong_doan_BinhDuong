@@ -14,12 +14,12 @@ export default function AboutMe() {
         <NameCard
           position={``}
           name={`Bà Nguyễn Kim Loan`}
-          img_add={`/pictures/lanhdao/ct_nkl1.jpg`}
-          description={`Ủy viên Đoàn Chủ tịch Tổng Liên đoàn khóa XII, Tỉnh ủy viên, Chủ tịch Liên đoàn Lao động tỉnh Bình Dương`}
+          img_add={`/pictures/lanhdao/ct_nkl.jpg`}
+          description={`Ủy viên Đoàn Chủ tịch Tổng Liên đoàn Lao động Việt Nam khóa XIII, Tỉnh ủy viên, Chủ tịch, Bí thư Đảng đoàn, Bí thư Đảng uỷ Liên đoàn Lao động tỉnh Bình Dương`}
         />
 
         {/* phó chủ tịch */}
-        <div className="grid md:grid-cols-4 gap-5 mt-10">
+        <div className="grid md:grid-cols-4 gap-3 mt-10">
           <NameCard
             position={``}
             name={`Bà Nguyễn Hoàng Bảo Trân`}

@@ -6,6 +6,7 @@ import StarsCanvas from "@/components/layout/background";
 import React from "react";
 import { ThemeModeScript } from "flowbite-react";
 import { Aleo } from "next/font/google";
+import { ScrollTop } from "@/components/common/buttons/scroll_top_button";
 
 const aleo = Aleo({
   weight: "500",
@@ -33,6 +34,7 @@ export default function RootLayout({
         <BottomNavigation />
         {children}
         {/* <StarsCanvas /> */}
+        <ScrollTop />
         <Footer />
       </body>
     </html>

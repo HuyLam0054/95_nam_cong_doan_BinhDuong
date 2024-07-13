@@ -16,7 +16,7 @@ export function NameCard(props: INameCardProps) {
     <Card
       className="max-w-sm mx-auto"
       renderImage={() => (
-        <img width={500} height={500} src={props.img_add} alt={props.img_add} />
+        <img src={props.img_add} alt={props.img_add} className="object-cover" />
       )}
     >
       <span className="text-base font-bold text-gray-900 dark:text-white text-center -mt-3">
@@ -25,7 +25,7 @@ export function NameCard(props: INameCardProps) {
       <span className="text-lg font-bold text-gray-900 dark:text-white text-center -mt-3">
         {props.name}
       </span>
-      <p className="font-normal text-gray-700 dark:text-gray-400 text-center">
+      <p className="text-[1rem] font-normal text-gray-700 dark:text-gray-400 text-center">
         {props.description}
       </p>
     </Card>
