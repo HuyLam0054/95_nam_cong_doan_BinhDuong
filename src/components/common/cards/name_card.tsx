@@ -14,7 +14,7 @@ export interface INameCardProps {
 export function NameCard(props: INameCardProps) {
   return (
     <Card
-      className="max-w-sm"
+      className="max-w-sm mx-auto"
       renderImage={() => (
         <img width={500} height={500} src={props.img_add} alt={props.img_add} />
       )}
