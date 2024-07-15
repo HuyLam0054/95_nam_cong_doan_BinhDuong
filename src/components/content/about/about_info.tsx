@@ -19,7 +19,7 @@ export default function AboutMe() {
         />
 
         {/* phó chủ tịch */}
-        <div className="grid md:grid-cols-4 gap-3 mt-10">
+        <div className="grid lg:grid-cols-4 gap-3 mt-10">
           <NameCard
             position={`Đồng chí`}
             name={`Nguyễn Hoàng Bảo Trân`}

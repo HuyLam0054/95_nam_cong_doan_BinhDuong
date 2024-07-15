@@ -17,7 +17,7 @@ export function DetailPopover(props: IDetailPopoverProps) {
       <Popover
         trigger="hover"
         content={
-          <div className="w-[390px] md:w-[600px] text-sm text-gray-500 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400">
+          <div className="w-[390px] lg:w-[600px] text-sm text-gray-500 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400">
             <div className="grid grid-cols-5">
               <div className="col-span-3 p-3">
                 <div className="space-y-2">

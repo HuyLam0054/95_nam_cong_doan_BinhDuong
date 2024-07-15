@@ -15,7 +15,7 @@ export function Propagates(props: IPropagates) {
         initial="hidden"
         animate="visible"
       >
-        <div className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-orange-400 pb-10 text-2xl md:text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
+        <div className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-orange-400 pb-10 text-2xl lg:text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
           <span>Bộ Banner và Standee tuyên truyền</span>
           <DownloadButton
             url_download={
@@ -27,7 +27,7 @@ export function Propagates(props: IPropagates) {
         </div>
 
         {/* Banner */}
-        <div className="grid md:grid-cols-1 gap-2">
+        <div className="grid lg:grid-cols-1 gap-2">
           <BannerCard
             type={"Banner"}
             name={""}

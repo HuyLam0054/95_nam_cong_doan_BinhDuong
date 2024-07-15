@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <div className="bg-white dark:bg-gray-900 pb-20 md:pb-0 min-h-screen w-full">
+      <div className="bg-white dark:bg-gray-900 pb-20 lg:pb-0 min-h-screen w-full">
         <HeroContent />
         <SliderCarosel />
         <AboutMe />

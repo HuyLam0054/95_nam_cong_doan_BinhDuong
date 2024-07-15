@@ -8,7 +8,7 @@ export interface IImageHistoryProps {
 
 export function ImageHistory(props: IImageHistoryProps) {
   return (
-    <div className="bg-white dark:bg-gray-900 p-2 md:col-span-2 md:flex">
+    <div className="bg-white dark:bg-gray-900 p-2 lg:col-span-2 lg:flex">
       <div className="flex flex-row items-center justify-center w-full z-[20]">
         <div className="h-full w-full flex flex-col justify-center m-auto text-start">
           <div className="flex flex-row justify-start flex-wrap">
@@ -16,7 +16,7 @@ export function ImageHistory(props: IImageHistoryProps) {
               <img
                 src={props.img_add}
                 alt="img_history"
-                className="max-h-80 w-auto"
+                className="max-h-96 w-full object-cover"
               />
               <span className="text-center font-bold text-black pt-2 text-sm">
                 {props.description}

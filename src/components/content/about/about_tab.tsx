@@ -9,20 +9,20 @@ export interface IAboutTabProps {}
 
 export function AboutTab(props: IAboutTabProps) {
   return (
-    <div className="overflow-x-auto">
+    <div className="overflow-x-auto max-w-screen-xl mx-auto">
       <Tabs aria-label="Full width tabs" variant="fullWidth">
         <Tabs.Item active title="Lịch sử công đoàn Bình Dương">
-          <div className="px-2">
+          <div className="px-5">
             <CDBDTimeline />
           </div>
         </Tabs.Item>
         <Tabs.Item title="Hoạt động chào mừng">
-          <div className="px-2">
+          <div className="px-5">
             <ACTTimeline />
           </div>
         </Tabs.Item>
         <Tabs.Item title="Kế hoạch tổ chức">
-          <div className="px-2">
+          <div className="px-5">
             <PlanTimeline />
           </div>
         </Tabs.Item>

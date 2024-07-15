@@ -14,10 +14,10 @@ export function Activitives(props: IActivitives) {
         initial="hidden"
         animate="visible"
       >
-        <div className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-orange-400 pb-10 text-2xl md:text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
+        <div className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-orange-400 pb-10 text-2xl lg:text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
           <span>Hoạt động chào mừng</span>
         </div>
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid lg:grid-cols-2 gap-8">
           <EventCard
             type={"event"}
             name={

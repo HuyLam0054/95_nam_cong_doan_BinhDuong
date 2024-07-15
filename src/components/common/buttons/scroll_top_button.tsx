@@ -36,7 +36,7 @@ export function ScrollTop(props: IScrollTopProps) {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="text-white bg-blue-300 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm p-2.5 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 fixed bottom-0 right-0 mb-24 md:mb-14 mr-5 rounded-full z-40"
+          className="text-white bg-blue-300 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm p-2.5 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 fixed bottom-0 right-0 mb-24 lg:mb-14 mr-5 rounded-full z-40"
         >
           <HiArrowCircleUp className="w-10 h-10" />
         </button>

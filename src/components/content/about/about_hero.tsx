@@ -11,8 +11,8 @@ const HeroContent = () => {
   return (
     <section className="bg-white dark:bg-gray-900">
       <div className="pt-12 px-1 mx-auto max-w-screen-xl">
-        <div className="grid w-full md:grid-cols-5 gap-1">
-          <div className="bg-white dark:bg-gray-900 p-8 md:p-12 md:col-span-3">
+        <div className="grid w-full lg:grid-cols-5 gap-1">
+          <div className="bg-white dark:bg-gray-900 p-8 lg:p-12 lg:col-span-3">
             <motion.div
               initial="hidden"
               animate="visible"
@@ -23,20 +23,20 @@ const HeroContent = () => {
 
                 <motion.div
                   variants={slideInFromLeft(0.5)}
-                  className="flex flex-col gap-6 mt-5 md:my-10 font-bold text-gray-800 dark:text-white max-w-[600px] w-auto h-auto"
+                  className="flex flex-col gap-6 mt-5 lg:my-10 font-bold text-gray-800 dark:text-white max-w-[600px] w-auto h-auto"
                 >
                   <span>
-                    <p className="text-3xl md:text-4xl font-bold uppercase text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-700 mb-3">
+                    <p className="text-3xl lg:text-4xl font-bold uppercase text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-700 mb-3">
                       {`Nhiệt liệt chào mừng 95 năm Ngày Thành lập Công đoàn Việt Nam`}
                     </p>
-                    <p className="text-1xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-700 to-orange-400">
+                    <p className="text-1xl lg:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-700 to-orange-400">
                       (28/7/1929 - 28/7/2024)
                     </p>
                   </span>
                 </motion.div>
                 <motion.div
                   variants={slideInFromTop(0)}
-                  className="w-full h-full justify-center items-center flex md:hidden mt-3"
+                  className="w-full h-full justify-center items-center flex lg:hidden mt-3"
                 >
                   <Image
                     src="/banner1.jpg"
@@ -48,7 +48,7 @@ const HeroContent = () => {
                 </motion.div>
                 <motion.p
                   variants={slideInFromLeft(0.8)}
-                  className="text-base md:text-xl text-gray-700 dark:text-gray-300 mb-5 max-w-[600px]"
+                  className="text-base lg:text-xl text-gray-700 dark:text-gray-300 mb-5 max-w-[600px]"
                 >
                   Ngày 28 tháng 7 năm 1929, Tổng Công hội đỏ Bắc Kỳ, tiền thân
                   của tổ chức Công đoàn Việt Nam chính thức được thành lập, đánh
@@ -69,7 +69,7 @@ const HeroContent = () => {
               </div>
             </motion.div>
           </div>
-          <div className="bg-white dark:bg-gray-900 p-2 hidden md:col-span-2 md:flex">
+          <div className="bg-white dark:bg-gray-900 p-2 hidden lg:col-span-2 lg:flex">
             <motion.div
               initial="hidden"
               animate="visible"
