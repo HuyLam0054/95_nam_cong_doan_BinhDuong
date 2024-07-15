@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   icons: {
     icon: "/logo95nam.png",
   },
-  title: "Tin tuyên truyền",
+  title: "Tuyên truyền",
 };
 export default function PropagatesPage() {
   return (

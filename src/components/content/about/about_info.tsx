@@ -12,8 +12,8 @@ export default function AboutMe() {
         </h2>
         {/* chủ tịch */}
         <NameCard
-          position={``}
-          name={`Bà Nguyễn Kim Loan`}
+          position={`Đồng chí`}
+          name={`Nguyễn Kim Loan`}
           img_add={`/pictures/lanhdao/ct_nkl.jpg`}
           description={`Ủy viên Đoàn Chủ tịch Tổng Liên đoàn Lao động Việt Nam khóa XIII, Tỉnh ủy viên, Chủ tịch, Bí thư Đảng đoàn, Bí thư Đảng uỷ Liên đoàn Lao động tỉnh Bình Dương`}
         />
@@ -21,26 +21,26 @@ export default function AboutMe() {
         {/* phó chủ tịch */}
         <div className="grid md:grid-cols-4 gap-3 mt-10">
           <NameCard
-            position={``}
-            name={`Bà Nguyễn Hoàng Bảo Trân`}
+            position={`Đồng chí`}
+            name={`Nguyễn Hoàng Bảo Trân`}
             img_add={`/pictures/lanhdao/pct_nhbt.jpg`}
             description={`Đại biểu Quốc hội khóa XV, phó Chủ tịch thường trực, phó Bí thư Đảng đoàn, phó Bí thư Đảng uỷ Liên đoàn Lao động tỉnh Bình Dương`}
           />
           <NameCard
-            position={``}
-            name={`Bà Ong Thuỵ Hoàng Mai`}
+            position={`Đồng chí`}
+            name={`Ong Thuỵ Hoàng Mai`}
             img_add={`/pictures/lanhdao/pct_othm.jpg`}
             description={`Phó Chủ tịch Liên đoàn Lao động tỉnh Bình Dương`}
           />
           <NameCard
-            position={``}
-            name={`Tiến sĩ Đặng Trung Dũng`}
+            position={`Đồng chí`}
+            name={`Đặng Trung Dũng`}
             img_add={`/pictures/lanhdao/pct_dtd.jpg`}
             description={`Uỷ viên ban chấp hành Tổng Liên đoàn Lao động Việt Nam, Phó Chủ tịch Liên đoàn Lao động tỉnh Bình Dương`}
           />
           <NameCard
-            position={``}
-            name={`Ông Nguyễn Tấn Đạt`}
+            position={`Đồng chí`}
+            name={`Nguyễn Tấn Đạt`}
             img_add={`/pictures/lanhdao/pct_ntd.jpg`}
             description={`Phó Chủ tịch Liên đoàn Lao động tỉnh Bình Dương`}
           />

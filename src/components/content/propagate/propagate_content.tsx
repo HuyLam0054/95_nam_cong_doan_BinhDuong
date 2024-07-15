@@ -49,28 +49,28 @@ export function Propagates(props: IPropagates) {
             type={"Standee"}
             name={""}
             delay={0.7}
-            img={"/pictures/Standee/Standee FN-03.png"}
+            img={"/pictures/Banner/Standee FN-03.png"}
             description={``}
           />
           <StandeeCard
             type={"Standee"}
             name={""}
             delay={0.9}
-            img={"/pictures/Standee/Standee FN-04.png"}
+            img={"/pictures/Banner/Standee FN-04.png"}
             description={``}
           />
           <StandeeCard
             type={"Standee"}
             name={""}
             delay={1.1}
-            img={"/pictures/Standee/Standee FN-05.png"}
+            img={"/pictures/Banner/Standee FN-05.png"}
             description={``}
           />
           <StandeeCard
             type={"Standee"}
             name={""}
             delay={1.3}
-            img={"/pictures/Standee/Standee FN-06.png"}
+            img={"/pictures/Banner/Standee FN-06.png"}
             description={``}
           />
         </div>
