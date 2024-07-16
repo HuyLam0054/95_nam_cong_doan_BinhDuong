@@ -7,6 +7,7 @@ import { HiCalendar } from "react-icons/hi";
 import Image from "next/image";
 import { ImageHistory } from "../images/image";
 import { AccordionDH } from "../accordion/accordion_dh";
+import { DetailPopover } from "../popovers/detail_popover";
 
 export interface ICDTimelineProps {}
 
@@ -49,9 +50,15 @@ export function CDTimeline(props: ICDTimelineProps) {
                     công nhân Việt Nam tăng lên hơn 22 vạn người vào năm 1929.
                     Dưới sự áp bức của thực dân và phong kiến, giai cấp công
                     nhân đoàn kết đấu tranh đòi quyền lợi, hình thành các Hội Ái
-                    hữu và Hội Tương tế. Cuối năm 1920, Tôn Đức Thắng thành lập
-                    Công hội Ba Son ở Sài Gòn, mở đầu phong trào đấu tranh giải
-                    phóng giai cấp và dân tộc.
+                    hữu và Hội Tương tế. Cuối năm 1920,{" "}
+                    <DetailPopover
+                      name={`Tôn Đức Thắng`}
+                      date={`1888 - 1980`}
+                      img_url={`https://upload.wikimedia.org/wikipedia/vi/thumb/7/73/Tonducthang.jpg/330px-Tonducthang.jpg`}
+                      detail={`Ông là một nhà cách mạng và chính trị gia nổi tiếng của Việt Nam, sinh tại xã Mỹ Hòa Hưng, thành phố Long Xuyên, tỉnh An Giang. Ông tham gia vào hoạt động cách mạng từ rất sớm, nổi bật với vai trò lãnh đạo trong cuộc bãi công Ba Son năm 1919, đánh dấu bước ngoặt quan trọng trong phong trào công nhân Việt Nam. Trong suốt sự nghiệp của mình, ông giữ nhiều vị trí quan trọng và có nhiều đóng góp lớn cho đất nước, đặc biệt là trong giai đoạn kháng chiến chống Pháp và chống Mỹ. Từ năm 1969 đến 1980, Tôn Đức Thắng là Chủ tịch nước Cộng hòa Xã hội Chủ nghĩa Việt Nam, được biết đến như một lãnh đạo tận tụy, luôn đặt lợi ích của nhân dân và đất nước lên hàng đầu.`}
+                    />{" "}
+                    thành lập Công hội Ba Son ở Sài Gòn, mở đầu phong trào đấu
+                    tranh giải phóng giai cấp và dân tộc.
                   </div>
                   <ImageHistory
                     img_add={`https://file3.qdnd.vn/data/images/0/2020/02/02/vietcuong/c3.jpg`}
@@ -76,27 +83,34 @@ export function CDTimeline(props: ICDTimelineProps) {
                     &emsp;Quá trình hình thành và phát triển của Công hội đỏ Bắc
                     Kỳ gắn liền với hoạt động cách mạng của Lãnh tụ Nguyễn Ái
                     Quốc. Trong những năm đầu thế kỷ XX, Nguyễn Ái Quốc đã tham
-                    gia và gia nhập nhiều tổ chức công đoàn quốc tế. Ông đặt nền
-                    tảng lý luận và tư tưởng cho việc thành lập Công đoàn Việt
-                    Nam, như được nêu rõ trong tác phẩm "Đường Kách mệnh".
+                    gia và gia nhập nhiều tổ chức công đoàn quốc tế. Người đặt
+                    nền tảng lý luận và tư tưởng cho việc thành lập Công đoàn
+                    Việt Nam, như được nêu rõ trong tác phẩm "Đường Kách mệnh".
                     <br /> &emsp;Tháng 6/1925, Nguyễn Ái Quốc sáng lập Hội Việt
                     Nam Cách mạng Thanh niên ở Quảng Châu và tổ chức phong trào
                     "Vô sản hóa" trong các nhà máy, xí nghiệp giai đoạn
                     1925-1928. Sự ra đời của Chi bộ Cộng sản đầu tiên (3/1929)
                     và Đông Dương Cộng sản Đảng (6/1929) là kết quả của nỗ lực
-                    vận động công nhân, với Nguyễn Đức Cảnh đóng vai trò quan
-                    trọng. <br /> &emsp;Nhận thức vai trò của tổ chức Công hội
-                    và công nhân, Nguyễn Đức Cảnh và đồng chí đã tổ chức phong
-                    trào công nhân Bắc Kỳ để thành lập Công hội. Ngày 28/7/1929,
-                    Đại hội đại biểu Tổng Công hội Đỏ Bắc Kỳ lần thứ nhất được
-                    tổ chức do Nguyễn Đức Cảnh chủ trì, quyết định thành lập
-                    Tổng Công hội Đỏ Bắc Kỳ và thông qua các điều lệ, hệ thống
-                    tổ chức. Đại hội cũng ra báo "Lao động" và tạp chí "Công hội
-                    Đỏ", bầu Nguyễn Đức Cảnh làm Hội trưởng. <br /> &emsp;Sự
-                    kiện thành lập Tổng Công hội Đỏ Bắc Kỳ là một dấu mốc quan
-                    trọng trong lịch sử phong trào công nhân và Công đoàn Việt
-                    Nam, từ đó giai cấp công nhân có một tổ chức cách mạng rộng
-                    lớn, hoạt động có tôn chỉ, mục đích rõ ràng.
+                    vận động công nhân, với{" "}
+                    <DetailPopover
+                      name={`Nguyễn Đức Cảnh`}
+                      date={`1908 - 1932`}
+                      img_url={`https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Nguyen_Duc_Canh.jpg/375px-Nguyen_Duc_Canh.jpg`}
+                      detail={`Ông là một nhà cách mạng và lãnh đạo công nhân nổi tiếng của Việt Nam. Sinh tại làng Diêm Điền, huyện Thụy Anh, tỉnh Thái Bình, ông sớm gia nhập phong trào cách mạng và có nhiều đóng góp quan trọng. Năm 1927, Nguyễn Đức Cảnh gia nhập Tân Việt Cách mạng Đảng và trở thành một trong những sáng lập viên của Đảng Cộng sản Việt Nam. Ông đóng vai trò quan trọng trong việc thành lập Tổng Công hội Đỏ Bắc Kỳ và lãnh đạo các cuộc đấu tranh của công nhân, đặc biệt là cuộc bãi công của thợ máy ở Hải Phòng năm 1930. Nguyễn Đức Cảnh bị bắt và bị xử tử năm 1932, để lại một tấm gương hy sinh anh dũng cho sự nghiệp cách mạng của dân tộc.`}
+                    />{" "}
+                    đóng vai trò quan trọng. <br /> &emsp;Nhận thức vai trò của
+                    tổ chức Công hội và công nhân, Nguyễn Đức Cảnh và đồng chí
+                    đã tổ chức phong trào công nhân Bắc Kỳ để thành lập Công
+                    hội. Ngày 28/7/1929, Đại hội đại biểu Tổng Công hội Đỏ Bắc
+                    Kỳ lần thứ nhất được tổ chức do Nguyễn Đức Cảnh chủ trì,
+                    quyết định thành lập Tổng Công hội Đỏ Bắc Kỳ và thông qua
+                    các điều lệ, hệ thống tổ chức. Đại hội cũng ra báo "Lao
+                    động" và tạp chí "Công hội Đỏ", bầu Nguyễn Đức Cảnh làm Hội
+                    trưởng. <br /> &emsp;Sự kiện thành lập Tổng Công hội Đỏ Bắc
+                    Kỳ là một dấu mốc quan trọng trong lịch sử phong trào công
+                    nhân và Công đoàn Việt Nam, từ đó giai cấp công nhân có một
+                    tổ chức cách mạng rộng lớn, hoạt động có tôn chỉ, mục đích
+                    rõ ràng.
                   </div>
                   <ImageHistory
                     img_add={`https://media-cdn-v2.laodong.vn/storage/newsportal/2023/7/27/1221756/2-VHTT-1025112.jpg?w=660`}

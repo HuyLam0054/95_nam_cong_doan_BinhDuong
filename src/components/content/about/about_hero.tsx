@@ -1,11 +1,7 @@
 "use client";
 
 import React from "react";
-import { motion } from "framer-motion";
-import { slideInFromLeft, slideInFromTop } from "@/utils/motion";
 import Image from "next/image";
-
-import { DetailPopover } from "../../common/popovers/detail_popover";
 
 const HeroContent = () => {
   return (
@@ -49,12 +45,6 @@ const HeroContent = () => {
                   công nhân và tổ chức Công đoàn Việt Nam; ra sức thi đua, quyết
                   tâm thực hiện thắng lợi mục tiêu dân giàu, nước mạnh, dân chủ,
                   công bằng, văn minh.
-                  <DetailPopover
-                    name={`Nguyễn Đức Cảnh`}
-                    date={`(1908-1932)`}
-                    detail={`Ông là một nhà cách mạng Việt Nam, một trong những người sáng lập Đảng Cộng sản Việt Nam. Sinh tại Thái Bình, ông tham gia Hội Việt Nam Cách mạng Thanh niên và sau đó học tập tại Quảng Châu, Trung Quốc. Ông đóng vai trò quan trọng trong phong trào công nhân ở miền Bắc Việt Nam, tổ chức nhiều cuộc đình công và biểu tình. Năm 1931, ông bị thực dân Pháp bắt và bị xử bắn vào năm 1932. Nguyễn Đức Cảnh được nhớ đến như một biểu tượng của tinh thần cách mạng và lòng yêu nước, với nhiều địa điểm tại Việt Nam mang tên ông để tôn vinh những đóng góp của ông.`}
-                    img_url={`https://baotanglichsu.vn/DataFiles/Uploaded/image/cong%20hoi%20do/anh2.jpg`}
-                  />
                 </p>
               </div>
             </div>
