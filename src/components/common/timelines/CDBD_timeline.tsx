@@ -1,11 +1,12 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 
 import { Timeline } from "flowbite-react";
-import { NameCardOld } from "../cards/name_card_old";
 
 export function CDBDTimeline() {
   return (
     <>
+      {/* Lích sử công đoàn BD */}
       <div>
         <span className="text-lg font-semibold">
           &emsp;&emsp;Công đoàn Bình Dương đã và đang đóng vai trò quan trọng
@@ -22,116 +23,111 @@ export function CDBDTimeline() {
           <Timeline.Item>
             <Timeline.Point />
             <Timeline.Content>
-              <Timeline.Time>Tháng 1 năm 2024</Timeline.Time>
-              <Timeline.Title>Chi Tiết Lịch sử</Timeline.Title>
+              <Timeline.Time>Năm 1945 - Năm 1954</Timeline.Time>
+              <Timeline.Title>
+                Giai đoạn Kháng chiến chống Pháp (1945-1954)
+              </Timeline.Title>
               <Timeline.Body>
-                Chi Tiết Lịch sửChi Tiết Lịch sửChi Tiết Lịch sửChi Tiết Lịch
-                sửChi Tiết Lịch sửChi Tiết Lịch sửChi Tiết Lịch sửChi Tiết Lịch
-                sửChi Tiết Lịch sửChi Tiết Lịch sửChi Tiết Lịch sửChi Tiết Lịch
-                sửChi Tiết Lịch
+                <p>
+                  &emsp;&emsp;<b>1945:</b> Sau Cách mạng Tháng Tám, phong trào
+                  công nhân ở Bình Dương phát triển mạnh mẽ. Công đoàn tham gia
+                  tích cực vào các phong trào kháng chiến, tổ chức các cuộc biểu
+                  tình, đình công nhằm phản đối sự đàn áp của thực dân Pháp.
+                </p>
+                <p>
+                  &emsp;&emsp;<b>1946-1954:</b> Trong thời kỳ kháng chiến chống
+                  Pháp, công nhân Bình Dương vừa tham gia sản xuất vừa hỗ trợ
+                  vật chất và tinh thần cho lực lượng kháng chiến. Công đoàn
+                  Bình Dương đã tổ chức các phong trào quyên góp, ủng hộ lương
+                  thực, thực phẩm cho bộ đội và nhân dân vùng chiến khu.
+                </p>
               </Timeline.Body>
             </Timeline.Content>
           </Timeline.Item>
           <Timeline.Item>
             <Timeline.Point />
             <Timeline.Content>
-              <Timeline.Time>Tháng 1 năm 2024</Timeline.Time>
-              <Timeline.Title>Chi Tiết Lịch sử</Timeline.Title>
+              <Timeline.Time>Năm 1954 - Năm 1975</Timeline.Time>
+              <Timeline.Title>
+                Giai đoạn Kháng chiến chống Mỹ (1954-1975)
+              </Timeline.Title>
               <Timeline.Body>
-                Chi Tiết Lịch sửChi Tiết Lịch sửChi Tiết Lịch sửChi Tiết Lịch
-                sửChi Tiết Lịch sửChi Tiết Lịch sửChi Tiết Lịch sửChi Tiết Lịch
-                sửChi Tiết Lịch sửChi Tiết Lịch sửChi Tiết Lịch sửChi Tiết Lịch
-                sửChi Tiết Lịch
+                &emsp;&emsp;Bình Dương là một trong những khu vực chiến lược
+                trong cuộc kháng chiến chống Mỹ. Công đoàn tiếp tục tổ chức các
+                phong trào đấu tranh, vận động công nhân tham gia sản xuất và
+                chiến đấu. Nhiều công nhân Bình Dương đã tham gia các đội du
+                kích, góp phần vào các chiến dịch lớn của cách mạng. Công đoàn
+                Bình Dương đã tổ chức các hoạt động hỗ trợ cho lực lượng kháng
+                chiến, như sản xuất vũ khí, khí tài, và cung cấp hậu cần cho bộ
+                đội.
               </Timeline.Body>
             </Timeline.Content>
           </Timeline.Item>
           <Timeline.Item>
             <Timeline.Point />
             <Timeline.Content>
-              <Timeline.Time>Tháng 1 năm 2024</Timeline.Time>
-              <Timeline.Title>Chi Tiết Lịch sử</Timeline.Title>
+              <Timeline.Time>Năm 1975 - Năm 1986</Timeline.Time>
+              <Timeline.Title>Sau Đại thắng năm 1975</Timeline.Title>
               <Timeline.Body>
-                Chi Tiết Lịch sửChi Tiết Lịch sửChi Tiết Lịch sửChi Tiết Lịch
-                sửChi Tiết Lịch sửChi Tiết Lịch sửChi Tiết Lịch sửChi Tiết Lịch
-                sửChi Tiết Lịch sửChi Tiết Lịch sửChi Tiết Lịch sửChi Tiết Lịch
-                sửChi Tiết Lịch
+                <p>
+                  &emsp;&emsp;<b>1976:</b> Sau khi đất nước thống nhất, Công
+                  đoàn Bình Dương được tổ chức lại, trở thành một phần của "Tổng
+                  Công đoàn Việt Nam". Công đoàn tập trung vào việc phục hồi sản
+                  xuất, xây dựng kinh tế sau chiến tranh. Công nhân Bình Dương
+                  tham gia vào các công trình xây dựng cơ sở hạ tầng, khôi phục
+                  các nhà máy, xí nghiệp bị tàn phá.
+                </p>
+                <p>
+                  &emsp;&emsp;<b>1976-1985:</b> Công đoàn Bình Dương tổ chức
+                  nhiều phong trào thi đua lao động sản xuất, nâng cao hiệu quả
+                  công việc. Nhiều phong trào thi đua, như "Lao động giỏi, lao
+                  động sáng tạo" đã được phát động, thu hút đông đảo công nhân
+                  tham gia.
+                </p>
+              </Timeline.Body>
+            </Timeline.Content>
+          </Timeline.Item>
+          <Timeline.Item>
+            <Timeline.Point />
+            <Timeline.Content>
+              <Timeline.Time>Năm 1986 đến nay</Timeline.Time>
+              <Timeline.Title>Thời kỳ Đổi mới (1986 đến nay)</Timeline.Title>
+              <Timeline.Body>
+                <p>
+                  &emsp;&emsp;<b>1986:</b> Bước vào thời kỳ Đổi mới, Bình Dương
+                  thu hút nhiều dự án đầu tư trong và ngoài nước, trở thành một
+                  trong những tỉnh có tốc độ phát triển kinh tế nhanh nhất cả
+                  nước. Công đoàn Bình Dương đã phát triển mạnh mẽ, bảo vệ quyền
+                  lợi công nhân trong các khu công nghiệp, khu chế xuất như
+                  VSIP, Sóng Thần, Mỹ Phước... Tổ chức nhiều phong trào thi đua
+                  lao động sản xuất, cải tiến kỹ thuật, nâng cao đời sống công
+                  nhân. Công đoàn cũng phát triển các chương trình phúc lợi xã
+                  hội, bảo hiểm, hỗ trợ công nhân gặp khó khăn.
+                </p>
+                <p>
+                  &emsp;&emsp;<b>1996:</b> Công đoàn Bình Dương phối hợp với các
+                  cơ quan chức năng để xây dựng các chính sách lao động, bảo vệ
+                  quyền lợi công nhân, tổ chức các chương trình đào tạo nâng cao
+                  tay nghề.{" "}
+                </p>
+                <p>
+                  &emsp;&emsp;<b>Những năm thập niên 2000:</b> Công đoàn Bình
+                  Dương đã tăng cường vai trò đại diện cho công nhân trong các
+                  cuộc thương lượng với chủ doanh nghiệp, đảm bảo các quyền lợi
+                  về tiền lương, giờ làm việc, điều kiện làm việc.
+                </p>
+                <p>
+                  &emsp;&emsp;<b>Những năm thập niên 2010</b>: Công đoàn tiếp
+                  tục mở rộng hoạt động, tổ chức các hoạt động văn hóa, thể
+                  thao, tạo sân chơi lành mạnh cho công nhân. Đồng thời, công
+                  đoàn cũng tham gia vào các chương trình đào tạo, nâng cao tay
+                  nghề cho công nhân, giúp họ thích nghi với yêu cầu công việc
+                  ngày càng cao.
+                </p>
               </Timeline.Body>
             </Timeline.Content>
           </Timeline.Item>
         </Timeline>
-      </div>
-      <div>
-        <span className="text-xl uppercase font-semibold px-auto">
-          Lãnh đạo Liên đoàn Lao động Bình Dương:
-        </span>
-      </div>
-      <div className="pt-10 grid lg:grid-cols-4 gap-2">
-        <NameCardOld
-          position={`Đồng chí`}
-          name={`Nguyễn Thường Sơn`}
-          img_add={`https://static.vecteezy.com/system/resources/thumbnails/008/442/086/small_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg`}
-          description={`Thư ký liên hiệp Công đoàn tỉnh Sông Bé khoá I`}
-        />
-        <NameCardOld
-          position={`Đồng chí`}
-          name={`Ngô Tấn  Đạt`}
-          img_add={`https://static.vecteezy.com/system/resources/thumbnails/008/442/086/small_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg`}
-          description={`Thư ký liên hiệp Công đoàn tỉnh Sông Bé khoá II`}
-        />
-        <NameCardOld
-          position={`Đồng chí`}
-          name={`Trần Xuân Minh`}
-          img_add={`https://static.vecteezy.com/system/resources/thumbnails/008/442/086/small_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg`}
-          description={`Thư ký liên hiệp Công đoàn tỉnh Sông Bé khoá II - III`}
-        />
-        <NameCardOld
-          position={`Đồng chí`}
-          name={`Nguyễn Văn Tấn`}
-          img_add={`https://static.vecteezy.com/system/resources/thumbnails/008/442/086/small_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg`}
-          description={`Chủ tịch Liên đoàn Lao động tỉnh Sông Bé khoá IV`}
-        />
-        <NameCardOld
-          position={`Đồng chí`}
-          name={`Nguyễn Văn Minh`}
-          img_add={`https://static.vecteezy.com/system/resources/thumbnails/008/442/086/small_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg`}
-          description={`Chủ tịch Liên đoàn Lao động tỉnh Bình Dương khoá IV - V`}
-        />
-        <NameCardOld
-          position={`Đồng chí`}
-          name={`Trịnh Thị Kim Liên`}
-          img_add={`https://static.vecteezy.com/system/resources/thumbnails/008/442/086/small_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg`}
-          description={`Chủ tịch Liên đoàn Lao động tỉnh Bình Dương khoá V - VI`}
-        />
-        <NameCardOld
-          position={`Đồng chí`}
-          name={`Nguyễn Văn Nam`}
-          img_add={`https://static.vecteezy.com/system/resources/thumbnails/008/442/086/small_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg`}
-          description={`Chủ tịch Liên đoàn Lao động tỉnh Bình Dương khoá IV - VII - VIII`}
-        />
-        <NameCardOld
-          position={`Đồng chí`}
-          name={`Lê Thành Nhơn`}
-          img_add={`https://static.vecteezy.com/system/resources/thumbnails/008/442/086/small_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg`}
-          description={`Chủ tịch Liên đoàn Lao động tỉnh Bình Dương khoá VIII - IX`}
-        />
-        <NameCardOld
-          position={`Đồng chí`}
-          name={`Bùi Thanh Nhân`}
-          img_add={`https://static.vecteezy.com/system/resources/thumbnails/008/442/086/small_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg`}
-          description={`Chủ tịch Liên đoàn Lao động tỉnh Bình Dương khoá IX`}
-        />
-        <NameCardOld
-          position={`Đồng chí`}
-          name={`Trương Thị Bích Hạnh`}
-          img_add={`https://static.vecteezy.com/system/resources/thumbnails/008/442/086/small_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg`}
-          description={`Chủ tịch Liên đoàn Lao động tỉnh Bình Dương khoá IX - X`}
-        />
-        <NameCardOld
-          position={`Đồng chí`}
-          name={`Nguyễn Kim Loan`}
-          img_add={`https://static.vecteezy.com/system/resources/thumbnails/008/442/086/small_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg`}
-          description={`Chủ tịch Liên đoàn Lao động tỉnh Bình Dương khoá XI-XII-XIII`}
-        />
       </div>
     </>
   );

@@ -37,21 +37,24 @@ const HeroContent = () => {
                   />
                 </div>
                 <p className="text-base lg:text-xl text-gray-700 dark:text-gray-300 mb-5 max-w-[600px]">
-                  Ngày 28 tháng 7 năm 1929, Tổng Công hội đỏ Bắc Kỳ, tiền thân
-                  của tổ chức Công đoàn Việt Nam chính thức được thành lập, đánh
-                  dấu bước ngoặt lớn, khẳng định sự lớn mạnh của phong trào công
-                  nhân và hoạt động công đoàn cách mạng Việt Nam; là hạt nhân{" "}
+                  Kỷ niệm 95 năm Ngày thành lập Công đoàn Việt Nam là sự kiện
+                  chính trị quan trọng đánh dấu bước phát triển mới của phong
+                  trào công nhân, viên chức, lao động, của tổ chức Công đoàn
+                  Việt Nam; khẳng định vai trò, sứ mệnh lịch sử của giai cấp
+                  công nhân, truyền thống vẻ vang và những đóng góp to lớn của
+                  giai cấp công nhân, tổ chức Công đoàn Việt Nam trong các giai
+                  đoạn cách mạng của đất nước dưới sự lãnh đạo của Đảng Cộng sản
+                  Việt Nam. Đây là dịp để cán bộ, đoàn viên, CNVCLĐ cùng nhân
+                  dân cả nước ôn lại, phát huy truyền thống vẻ vang của giai cấp
+                  công nhân và tổ chức Công đoàn Việt Nam; ra sức thi đua, quyết
+                  tâm thực hiện thắng lợi mục tiêu dân giàu, nước mạnh, dân chủ,
+                  công bằng, văn minh.
                   <DetailPopover
-                    name={`Đồng chí Nguyễn Đức Cảnh`}
+                    name={`Nguyễn Đức Cảnh`}
                     date={`(1908-1932)`}
                     detail={`Ông là một nhà cách mạng Việt Nam, một trong những người sáng lập Đảng Cộng sản Việt Nam. Sinh tại Thái Bình, ông tham gia Hội Việt Nam Cách mạng Thanh niên và sau đó học tập tại Quảng Châu, Trung Quốc. Ông đóng vai trò quan trọng trong phong trào công nhân ở miền Bắc Việt Nam, tổ chức nhiều cuộc đình công và biểu tình. Năm 1931, ông bị thực dân Pháp bắt và bị xử bắn vào năm 1932. Nguyễn Đức Cảnh được nhớ đến như một biểu tượng của tinh thần cách mạng và lòng yêu nước, với nhiều địa điểm tại Việt Nam mang tên ông để tôn vinh những đóng góp của ông.`}
                     img_url={`https://baotanglichsu.vn/DataFiles/Uploaded/image/cong%20hoi%20do/anh2.jpg`}
-                  />{" "}
-                  vận động, tập hợp giai cấp công nhân đi dưới ngọn cờ cách mạng
-                  vinh quang của Đảng Cộng sản Việt Nam.Tổ chức Công đoàn Việt
-                  Nam đã có những đóng góp quan trọng vào công cuộc đấu tranh
-                  giành độc lập dân tộc, giải phóng giai cấp và trong công cuộc
-                  xây dựng và phát triển đất nước.
+                  />
                 </p>
               </div>
             </div>

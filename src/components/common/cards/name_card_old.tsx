@@ -18,7 +18,7 @@ export function NameCardOld(props: INameCardOldProps) {
         <img
           src={props.img_add}
           alt={props.img_add}
-          className="object-cover max-h-60 min-w-80 lg:min-w-60"
+          className="object-cover min-w-80 lg:min-w-60"
         />
       )}
     >

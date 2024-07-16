@@ -333,10 +333,110 @@ export function CDTimeline(props: ICDTimelineProps) {
           </Timeline.Item>
         </Timeline>
       </div>
+      {/* Tên gọi của Công đoàn Việt Nam qua các thời kỳ */}
+      <div className="mx-auto mb-5">
+        <span className="font-bold text-xl uppercase mx-auto text-red-700 ">
+          III. Tên gọi của Công đoàn Việt Nam qua các thời kỳ
+        </span>
+      </div>
+      <div>
+        <Timeline horizontal>
+          <Timeline.Item>
+            <Timeline.Point icon={HiCalendar} />
+            <Timeline.Content>
+              <Timeline.Time>1929 - 1935</Timeline.Time>
+              <Timeline.Title>
+                <span className="uppercase">hội công đỏ</span>
+              </Timeline.Title>
+              <Timeline.Body>
+                Get access to over 20+ pages including a dashboard layout
+              </Timeline.Body>
+            </Timeline.Content>
+          </Timeline.Item>
+          <Timeline.Item>
+            <Timeline.Point icon={HiCalendar} />
+            <Timeline.Content>
+              <Timeline.Time>1935 - 1939</Timeline.Time>
+              <Timeline.Title>
+                <span className="uppercase">nghiệp đoàn ái hữu</span>
+              </Timeline.Title>
+              <Timeline.Body>
+                Get access to over 20+ pages including a dashboard layout
+              </Timeline.Body>
+            </Timeline.Content>
+          </Timeline.Item>
+          <Timeline.Item>
+            <Timeline.Point icon={HiCalendar} />
+            <Timeline.Content>
+              <Timeline.Time>1939 - 1941</Timeline.Time>
+              <Timeline.Title>
+                <span className="uppercase">hội công nhân phản đế</span>
+              </Timeline.Title>
+              <Timeline.Body>
+                Get access to over 20+ pages including a dashboard layout
+              </Timeline.Body>
+            </Timeline.Content>
+          </Timeline.Item>
+          <Timeline.Item>
+            <Timeline.Point icon={HiCalendar} />
+            <Timeline.Content>
+              <Timeline.Time>1941 - 1946</Timeline.Time>
+              <Timeline.Title>
+                <span className="uppercase">hội công nhân cứu quốc</span>
+              </Timeline.Title>
+              <Timeline.Body>
+                Get access to over 20+ pages including a dashboard layout
+              </Timeline.Body>
+            </Timeline.Content>
+          </Timeline.Item>
+        </Timeline>
+        <Timeline horizontal>
+          <Timeline.Item>
+            <Timeline.Point icon={HiCalendar} />
+            <Timeline.Content>
+              <Timeline.Time>1946 - 1961</Timeline.Time>
+              <Timeline.Title>
+                <span className="uppercase">
+                  tổng liên đoàn lao động việt nam
+                </span>
+              </Timeline.Title>
+              <Timeline.Body>
+                Get access to over 20+ pages including a dashboard layout
+              </Timeline.Body>
+            </Timeline.Content>
+          </Timeline.Item>
+          <Timeline.Item>
+            <Timeline.Point icon={HiCalendar} />
+            <Timeline.Content>
+              <Timeline.Time>1961 - 1988</Timeline.Time>
+              <Timeline.Title>
+                <span className="uppercase">tổng công đoàn việt nam</span>
+              </Timeline.Title>
+              <Timeline.Body>
+                Get access to over 20+ pages including a dashboard layout
+              </Timeline.Body>
+            </Timeline.Content>
+          </Timeline.Item>
+          <Timeline.Item>
+            <Timeline.Point icon={HiCalendar} />
+            <Timeline.Content>
+              <Timeline.Time>1988 - nay</Timeline.Time>
+              <Timeline.Title>
+                <span className="uppercase">
+                  tổng liên đoàn lao động việt nam
+                </span>
+              </Timeline.Title>
+              <Timeline.Body>
+                Get access to over 20+ pages including a dashboard layout
+              </Timeline.Body>
+            </Timeline.Content>
+          </Timeline.Item>
+        </Timeline>
+      </div>
       {/* nội dung các kì đại hội */}
       <div className="mx-auto mb-5">
         <span className="font-bold text-xl uppercase mx-auto text-red-700 ">
-          III. nội dung các kỳ đại hội
+          IV. nội dung các kỳ đại hội
         </span>
       </div>
       <div>
