@@ -10,11 +10,7 @@ export interface IPropagates {}
 export function Propagates(props: IPropagates) {
   return (
     <>
-      <motion.div
-        className="py-8 px-4 mx-auto max-w-screen-xl"
-        initial="hidden"
-        animate="visible"
-      >
+      <div className="py-8 px-4 mx-auto max-w-screen-xl">
         <div className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-orange-400 pb-10 text-2xl lg:text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
           <span>Bộ Banner và Standee tuyên truyền</span>
           <DownloadButton
@@ -25,7 +21,6 @@ export function Propagates(props: IPropagates) {
             align={"text-center"}
           />
         </div>
-
         {/* Banner */}
         <div className="grid lg:grid-cols-1 gap-2">
           <BannerCard
@@ -38,43 +33,12 @@ export function Propagates(props: IPropagates) {
           <BannerCard
             type={"Banner"}
             name={""}
-            delay={0.5}
-            img={"/pictures/Banner/banner2.png"}
+            delay={0.6}
+            img={"/pictures/Banner/banner1.png"}
             description={``}
           />
         </div>
-        {/* Biểu ngữ treo đứng */}
-        <div className="grid grid-cols-4 gap-2 mt-2">
-          <StandeeCard
-            type={"Standee"}
-            name={""}
-            delay={0.7}
-            img={"/pictures/Banner/Standee FN-03.png"}
-            description={``}
-          />
-          <StandeeCard
-            type={"Standee"}
-            name={""}
-            delay={0.9}
-            img={"/pictures/Banner/Standee FN-04.png"}
-            description={``}
-          />
-          <StandeeCard
-            type={"Standee"}
-            name={""}
-            delay={1.1}
-            img={"/pictures/Banner/Standee FN-05.png"}
-            description={``}
-          />
-          <StandeeCard
-            type={"Standee"}
-            name={""}
-            delay={1.3}
-            img={"/pictures/Banner/Standee FN-06.png"}
-            description={``}
-          />
-        </div>
-      </motion.div>
+      </div>
     </>
   );
 }
