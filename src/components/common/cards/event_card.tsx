@@ -15,7 +15,7 @@ export function EventCard(props: IEventCardProps) {
       <img
         src={props.img}
         alt={props.img}
-        className="w-full object-cover max-h-[300px]"
+        className="w-full object-cover h-[190px]"
       />
 
       <div className="relative p-4">
